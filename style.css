@@ -132,6 +132,50 @@ header{
     margin: 10px 0;
     font-weight: bold;
 }
+/* Second section of main code */
+#second-section{
+    background-color: #1b4f72;
+    padding: 50px 0 100px 0;
+}
+#second-section>h2{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.smart-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+}
+.smat-img{
+    max-width: 100%;
+  }
+.smat-img img{
+    width: auto;
+    height: 250px; 
+}
+.smart-text{
+    color: white;
+}
+.smart-text h2{
+    padding: 20px 0;
+}
+.smart-text a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    padding: 10px 20px;
+    background-color: bisque;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+
+
 /* First Section Of main tag media cuery code start */
 @media only screen and (max-width: 688px){
     .service-parent{
@@ -140,6 +184,15 @@ header{
         grid-gap: 10px;
         width: 100%;
     }
+    .smart-parent{
+        display: block;
+        margin: 0 50px;
+    }
+    .smat-img img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
 }
 @media only screen and (min-width: 689px) and (max-width: 1099px){
     .service-parent{
@@ -147,5 +200,13 @@ header{
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 15px;
         width: 100%;
+    }
+    .smart-parent{
+        display: block;
+        margin: 0 70px;
+    }
+    .smat-img img{
+        width: 100%;
+        margin-bottom: 50px;
     }
 }
