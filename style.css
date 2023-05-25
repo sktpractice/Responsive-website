@@ -233,7 +233,58 @@ header{
     color: black;
 }
 
-
+/* Fourth section of main code */
+#fourth-section{
+    background-color: #154360;
+    padding: 100px 0;
+    color: white;
+}
+.perent-advice{
+    display: flex;
+    gap: 50px;
+    margin: 0 200px;
+    align-items: center;
+}
+.son-advice{}
+.son-advice h4{
+    font-size: 25px;
+}
+.son-advice h3{
+    font-size: 25px;
+    border-bottom: 2px solid red;
+    padding-bottom: 22px;
+}
+.son-advice p{
+    margin: 20px 0;
+    line-height: 1.6;
+    text-align: justify;
+    color: white;
+}
+.son-advice img{
+    max-width: 100%;
+    padding-bottom: 22px;
+}
+.son-advice a{
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 25px;
+    color: black;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .3s;
+    border: 1px solid green;
+}
+.son-advice a:hover{
+    background-color: wheat;
+}
+.advice-icon{
+    text-align: center;
+}
+.advice-icon a{
+    margin: 0 5px;
+}
 
 
 
@@ -270,6 +321,17 @@ header{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
     }
+    .perent-advice{
+        display: block;
+        margin: 0 30px;
+        align-items: center;
+    }
+    .son-advice h3{
+        padding-top: 30px;
+    }
+    .advice-icon{
+        text-align: left;
+    }
 }
 @media only screen and (min-width: 689px) and (max-width: 1099px){
     .service-parent{
@@ -299,5 +361,13 @@ header{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 25px;
+    }
+    .perent-advice{
+        display: flex;
+        margin: 0 70px;
+        align-items: center;
+    }
+    .advice-icon a{
+        margin: 10px;
     }
 }
