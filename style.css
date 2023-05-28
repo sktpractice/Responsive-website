@@ -352,6 +352,42 @@ form p {
     background-color: #16213e;
 }
 
+/* Six & match section code start */
+#sixth-section{
+    padding: 100px 0;
+    background-color: #07254f;
+}
+.match-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    margin: 0 200px;
+    color: white;
+}
+.s-match{
+    border: 4px solid #26528f;
+    padding: 20px;
+}
+.s-match i{
+    font-size: 40px;
+    padding: 0 20px 10px 20px;
+}
+.s-match h5{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.s-match p{
+    font-size: 14px;
+}
+.s-match:nth-child(2){
+    border: 4px solid white;
+}
+.differnt-match{
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
+
+
 
 
 
@@ -403,7 +439,15 @@ form p {
         max-width: 85%;
         padding: 20px 30px;
     }
-    
+    .match-parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 25px;
+        margin: 0 30px;
+    }
+    .differnt-match{
+        text-align: center;
+    }
     
 }
 
@@ -450,5 +494,11 @@ form p {
         background-color: #2e357a;
         max-width: 75%;
         padding: 40px 45px;
+    }
+    .match-parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 35px;
+        margin: 0 70px;
     }
 }
