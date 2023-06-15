@@ -387,6 +387,89 @@ form p {
     letter-spacing: 0.1em;
 }
 
+/* Seven & match section code start */
+#seven-section{
+    padding: 100px 0;
+}
+.takecare-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+    gap: 30px;
+}
+.img-care{
+    /* width: 100%; */
+}
+.img-care img{
+    max-width: 100%;
+}
+
+.takecare-part h3{
+    font-size: 20px;
+    font-size: bold;
+}
+.takecare-part p {
+    padding: 20px 0;
+    font-size: 20px;
+}
+.takecare-part ul{
+    list-style-position: inside;
+}
+.takecare-part ul li{
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+
+/* Footer code Start */
+footer{
+    background-color: #154360;
+    padding: 100px 0 50px 0;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    color: white;
+    gap: 80px;
+}
+.footer-part{
+    width: 100%;
+}
+.footer-part h5{
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+.footer-part h5 span{
+    color: yellow;
+}
+.footer-part>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.footer-part ul{
+ display: flex;
+} 
+.footer-part ul li{
+    list-style-type: none;
+}
+.footer-part>ul li>a{
+    text-decoration: none;
+    font-size: 20px ;
+    margin: 5px;
+    background-color: #0a273863;
+    padding: 8px;
+}
+.footer-part>ul li>a i{
+    color: white;
+}
+.footer-parent{}
+
 
 
 
@@ -448,7 +531,34 @@ form p {
     .differnt-match{
         text-align: center;
     }
-    
+
+    .takecare-parent{
+        display: block;
+        justify-content: space-between;
+        margin: 0 30px;
+        align-items: center;
+        gap: 30px;
+    }
+    .takecare-part{
+        text-align: center;
+    }
+    .takecare-part ul li{
+        padding: 5px 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .footer-parent{
+        display: block;
+        margin: 0 30px;
+    }
+    .footer-part{
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .footer-part ul{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -500,5 +610,24 @@ form p {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 35px;
         margin: 0 70px;
+    }
+
+
+    .takecare-parent{
+        display: block;
+        justify-content: space-between;
+        margin: 0 70px;
+    }
+    .takecare-part{
+        text-align: center;
+    }
+    .takecare-part ul li{
+        padding: 5px 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .footer-parent{
+        margin: 0 60px;
     }
 }
